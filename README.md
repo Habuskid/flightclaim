@@ -94,7 +94,16 @@ User Prompt (OKX.AI)
    ```
 
 ## Tech Stack
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+
 - **Framework:** Next.js 16.2.6 / React 19
+- **Language:** TypeScript 5.7.3
 - **Monetization:** OKX Web3 x402-next (0.1.1)
 - **Infrastructure:** Upstash Redis (1.38.0)
 - **Styling:** Tailwind CSS 4.2.0
