@@ -19,4 +19,5 @@ node_modules
 .DS_Store
 # Documentation and scratch files
 *.md
+!README.md
 test-*.ts
