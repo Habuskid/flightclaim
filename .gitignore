@@ -1,5 +1,7 @@
 # v0 sandbox internal files
 __v0_runtime_loader.js
+# v0 sandbox internal files
+__v0_runtime_loader.js
 __v0_devtools.tsx
 __v0_jsx-dev-runtime.ts
 .snowflake/
@@ -9,13 +11,12 @@ __v0_jsx-dev-runtime.ts
 # Environment variables
 .env*.local
 .env
+.env.example
 
 # Common ignores
 node_modules
 .next/
 .DS_Store
 # Documentation and scratch files
-IMPLEMENTATION_SUMMARY.md
-OKX_SUBMISSION_GUIDE.md
-QUICK_START.md
+*.md
 test-*.ts
