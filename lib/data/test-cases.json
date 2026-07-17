@@ -1,0 +1,96 @@
+{
+  "test_flights": [
+    {
+      "id": "EU123-cancelled",
+      "flight_number": "EU123",
+      "flight_date": "2026-07-15",
+      "flight_status": "cancelled",
+      "departure": {
+        "iata": "CDG",
+        "scheduled": "2026-07-15T10:00:00Z",
+        "delay": 0
+      },
+      "arrival": {
+        "iata": "LHR",
+        "scheduled": "2026-07-15T11:00:00Z",
+        "delay": 0
+      },
+      "airline": {
+        "name": "Air France",
+        "iata": "AF"
+      },
+      "expected_verdict": {
+        "eligible": true,
+        "regulation": "EU261",
+        "trigger": "cancellation",
+        "compensation_eur": 250,
+        "distance_km": 347
+      }
+    },
+    {
+      "id": "EU456-delayed",
+      "flight_number": "EU456",
+      "flight_date": "2026-07-16",
+      "flight_status": "landed",
+      "departure": {
+        "iata": "FCO",
+        "scheduled": "2026-07-16T12:00:00Z",
+        "delay": 240
+      },
+      "arrival": {
+        "iata": "CDG",
+        "scheduled": "2026-07-16T14:00:00Z",
+        "delay": 240
+      },
+      "airline": {
+        "name": "ITA Airways",
+        "iata": "IZ"
+      },
+      "expected_verdict": {
+        "eligible": true,
+        "regulation": "EU261",
+        "trigger": "delay",
+        "compensation_eur": 250,
+        "distance_km": 1485
+      }
+    },
+    {
+      "id": "EU789-ontime",
+      "flight_number": "EU789",
+      "flight_date": "2026-07-17",
+      "flight_status": "landed",
+      "departure": {
+        "iata": "BCN",
+        "scheduled": "2026-07-17T08:00:00Z",
+        "delay": 0
+      },
+      "arrival": {
+        "iata": "AMS",
+        "scheduled": "2026-07-17T11:00:00Z",
+        "delay": 0
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY"
+      },
+      "expected_verdict": {
+        "eligible": false,
+        "regulation": "EU261",
+        "trigger": "none",
+        "compensation_eur": 0
+      }
+    },
+    {
+      "id": "EU999-notfound",
+      "flight_number": "EU999",
+      "flight_date": "2026-07-18",
+      "expected_verdict": {
+        "eligible": false,
+        "regulation": "none",
+        "trigger": "none",
+        "compensation_eur": 0,
+        "reason_code": "flight_not_found"
+      }
+    }
+  ]
+}

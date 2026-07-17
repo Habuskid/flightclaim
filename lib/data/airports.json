@@ -1,0 +1,412 @@
+{
+  "airports": [
+    {
+      "iata": "CDG",
+      "name": "Paris Charles de Gaulle",
+      "lat": 49.0127,
+      "lon": 2.55,
+      "country": "FR",
+      "region": "EU"
+    },
+    {
+      "iata": "LHR",
+      "name": "London Heathrow",
+      "lat": 51.47,
+      "lon": -0.4543,
+      "country": "UK",
+      "region": "EUROPE_NON_EU"
+    },
+    {
+      "iata": "FCO",
+      "name": "Rome Fiumicino",
+      "lat": 41.8002,
+      "lon": 12.2388,
+      "country": "IT",
+      "region": "EU"
+    },
+    {
+      "iata": "MAD",
+      "name": "Madrid Barajas",
+      "lat": 40.4518,
+      "lon": -3.6168,
+      "country": "ES",
+      "region": "EU"
+    },
+    {
+      "iata": "BCN",
+      "name": "Barcelona El Prat",
+      "lat": 41.2974,
+      "lon": 2.0833,
+      "country": "ES",
+      "region": "EU"
+    },
+    {
+      "iata": "AMS",
+      "name": "Amsterdam Schiphol",
+      "lat": 52.3086,
+      "lon": 4.7639,
+      "country": "NL",
+      "region": "EU"
+    },
+    {
+      "iata": "FRA",
+      "name": "Frankfurt Main",
+      "lat": 50.0379,
+      "lon": 8.5622,
+      "country": "DE",
+      "region": "EU"
+    },
+    {
+      "iata": "MUC",
+      "name": "Munich Franz Josef Strauss",
+      "lat": 48.3538,
+      "lon": 11.7861,
+      "country": "DE",
+      "region": "EU"
+    },
+    {
+      "iata": "ZRH",
+      "name": "Zurich Airport",
+      "lat": 47.4647,
+      "lon": 8.5492,
+      "country": "CH",
+      "region": "EU"
+    },
+    {
+      "iata": "VIE",
+      "name": "Vienna International",
+      "lat": 48.1111,
+      "lon": 16.568,
+      "country": "AT",
+      "region": "EU"
+    },
+    {
+      "iata": "PRG",
+      "name": "Prague Vaclav Havel",
+      "lat": 50.0755,
+      "lon": 14.2658,
+      "country": "CZ",
+      "region": "EU"
+    },
+    {
+      "iata": "WAW",
+      "name": "Warsaw Chopin",
+      "lat": 52.1656,
+      "lon": 21.0214,
+      "country": "PL",
+      "region": "EU"
+    },
+    {
+      "iata": "ARN",
+      "name": "Stockholm Arlanda",
+      "lat": 59.6519,
+      "lon": 17.9289,
+      "country": "SE",
+      "region": "EU"
+    },
+    {
+      "iata": "CPH",
+      "name": "Copenhagen Airport",
+      "lat": 55.6161,
+      "lon": 12.656,
+      "country": "DK",
+      "region": "EU"
+    },
+    {
+      "iata": "ORY",
+      "name": "Paris Orly",
+      "lat": 48.7233,
+      "lon": 2.3792,
+      "country": "FR",
+      "region": "EU"
+    },
+    {
+      "iata": "LGW",
+      "name": "London Gatwick",
+      "lat": 51.1537,
+      "lon": -0.1821,
+      "country": "UK",
+      "region": "EUROPE_NON_EU"
+    },
+    {
+      "iata": "FCO",
+      "name": "Rome Ciampino",
+      "lat": 41.7994,
+      "lon": 12.5949,
+      "country": "IT",
+      "region": "EU"
+    },
+    {
+      "iata": "TFS",
+      "name": "Tel Aviv Ben Gurion",
+      "lat": 32.0055,
+      "lon": 34.8854,
+      "country": "IL",
+      "region": "WEST_ASIA"
+    },
+    {
+      "iata": "CAI",
+      "name": "Cairo International",
+      "lat": 30.1219,
+      "lon": 31.4056,
+      "country": "EG",
+      "region": "AFRICA"
+    },
+    {
+      "iata": "DXB",
+      "name": "Dubai International",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "country": "AE",
+      "region": "ASIA"
+    },
+    {
+      "iata": "SIN",
+      "name": "Singapore Changi",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "country": "SG",
+      "region": "ASIA"
+    },
+    {
+      "iata": "HND",
+      "name": "Tokyo Haneda",
+      "lat": 35.5475,
+      "lon": 139.7798,
+      "country": "JP",
+      "region": "ASIA"
+    },
+    {
+      "iata": "NRT",
+      "name": "Tokyo Narita",
+      "lat": 35.7647,
+      "lon": 140.3931,
+      "country": "JP",
+      "region": "ASIA"
+    },
+    {
+      "iata": "PEK",
+      "name": "Beijing Capital",
+      "lat": 40.0799,
+      "lon": 116.585,
+      "country": "CN",
+      "region": "ASIA"
+    },
+    {
+      "iata": "HKG",
+      "name": "Hong Kong International",
+      "lat": 22.308,
+      "lon": 113.9185,
+      "country": "HK",
+      "region": "ASIA"
+    },
+    {
+      "iata": "BKK",
+      "name": "Bangkok Suvarnabhumi",
+      "lat": 13.69,
+      "lon": 100.7501,
+      "country": "TH",
+      "region": "ASIA"
+    },
+    {
+      "iata": "DEL",
+      "name": "Delhi Indira Gandhi",
+      "lat": 28.5562,
+      "lon": 77.1,
+      "country": "IN",
+      "region": "ASIA"
+    },
+    {
+      "iata": "SYD",
+      "name": "Sydney Kingsford Smith",
+      "lat": -33.9461,
+      "lon": 151.1772,
+      "country": "AU",
+      "region": "OCEANIA"
+    },
+    {
+      "iata": "MEL",
+      "name": "Melbourne Tullamarine",
+      "lat": -37.6733,
+      "lon": 144.8433,
+      "country": "AU",
+      "region": "OCEANIA"
+    },
+    {
+      "iata": "LAX",
+      "name": "Los Angeles International",
+      "lat": 33.9425,
+      "lon": -118.4081,
+      "country": "US",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "JFK",
+      "name": "New York John F. Kennedy",
+      "lat": 40.6413,
+      "lon": -73.7781,
+      "country": "US",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "ORD",
+      "name": "Chicago O'Hare",
+      "lat": 41.9742,
+      "lon": -87.9073,
+      "country": "US",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "DFW",
+      "name": "Dallas Fort Worth",
+      "lat": 32.8975,
+      "lon": -97.0381,
+      "country": "US",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "SFO",
+      "name": "San Francisco Bay",
+      "lat": 37.6213,
+      "lon": -122.379,
+      "country": "US",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "MIA",
+      "name": "Miami International",
+      "lat": 25.7959,
+      "lon": -80.287,
+      "country": "US",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "LAS",
+      "name": "Las Vegas Harry Reid",
+      "lat": 36.08,
+      "lon": -115.1537,
+      "country": "US",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "SEA",
+      "name": "Seattle Tacoma",
+      "lat": 47.4502,
+      "lon": -122.3088,
+      "country": "US",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "YYZ",
+      "name": "Toronto Pearson",
+      "lat": 43.6777,
+      "lon": -79.6248,
+      "country": "CA",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "YVR",
+      "name": "Vancouver International",
+      "lat": 49.19,
+      "lon": -123.1794,
+      "country": "CA",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "MEX",
+      "name": "Mexico City Benito Juarez",
+      "lat": 19.4363,
+      "lon": -99.0721,
+      "country": "MX",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "CUN",
+      "name": "Cancun International",
+      "lat": 20.6295,
+      "lon": -87.0739,
+      "country": "MX",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "iata": "BUE",
+      "name": "Buenos Aires Ezeiza",
+      "lat": -34.8222,
+      "lon": -58.5358,
+      "country": "AR",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "iata": "GIG",
+      "name": "Rio de Janeiro Galeao",
+      "lat": -22.8122,
+      "lon": -43.2505,
+      "country": "BR",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "iata": "GRU",
+      "name": "Sao Paulo Guarulhos",
+      "lat": -23.4356,
+      "lon": -46.4731,
+      "country": "BR",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "iata": "LIM",
+      "name": "Lima Jorge Chavez",
+      "lat": -12.0219,
+      "lon": -77.1144,
+      "country": "PE",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "iata": "SCL",
+      "name": "Santiago Comodoro Arturo Merino Benítez",
+      "lat": -33.39,
+      "lon": -70.7858,
+      "country": "CL",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "iata": "JNB",
+      "name": "Johannesburg OR Tambo",
+      "lat": -26.1367,
+      "lon": 28.2411,
+      "country": "ZA",
+      "region": "AFRICA"
+    },
+    {
+      "iata": "CIR",
+      "name": "Cairo International",
+      "lat": 30.1219,
+      "lon": 31.4056,
+      "country": "EG",
+      "region": "AFRICA"
+    },
+    {
+      "iata": "CPT",
+      "name": "Cape Town International",
+      "lat": -33.9716,
+      "lon": 18.6014,
+      "country": "ZA",
+      "region": "AFRICA"
+    },
+    {
+      "iata": "IST",
+      "name": "Istanbul Airport",
+      "lat": 41.2619,
+      "lon": 28.748,
+      "country": "TR",
+      "region": "EUROPE_NON_EU"
+    },
+    {
+      "iata": "NCE",
+      "name": "Nice Cote d Azur",
+      "lat": 43.6584,
+      "lon": 7.2158,
+      "country": "FR",
+      "region": "EU"
+    }
+  ]
+}
