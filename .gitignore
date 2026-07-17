@@ -21,3 +21,6 @@ node_modules
 *.md
 !README.md
 test-*.ts
+
+# Runtime state
+data/aviationstack-usage.json
